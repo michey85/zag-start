@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+[data-part='label'] {
+  display: block;
+}
+
+[data-part='increment-trigger'], [data-part='decrement-trigger'] {
+  background: black;
+  border: 0;
+  color: white;
+}
+
+[data-part='increment-trigger'][data-disabled], [data-part='decrement-trigger'][data-disabled] {
+  opacity: 0.25;
+}
+
+[data-part='clear-button'] {
+  border: none;
+  background: none;
+}
+
+[data-part='scrubber'] {
+  border: 2px solid lightsalmon;
+  width: 280px;
+  height: 25px;
+}
